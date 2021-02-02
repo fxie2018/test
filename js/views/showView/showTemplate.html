@@ -1,0 +1,12 @@
+<%_.each(data,function(item){%>
+    <div class="show-item row">
+        <div class="show-item-left col-md-2">
+            <img class="show-item-post" src="<%=item.poster%>"/>
+        </div>
+        <div class="show-item-right col-md-10">
+            <div class="show-item-title"><%=item.seriesName%></div>
+            <div class="show-item-firstAired"><%=item.firstAired%></div>
+            <div class="show-item-overview"><%=item.overview%></div>
+        </div>
+    </div>
+<%})%>
